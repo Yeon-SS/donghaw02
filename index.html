@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/slick.css">
+		
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/ham_menu.css">
+
+    <link rel="stylesheet" href="./css/slick-theme.css"> 
+
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/ham_menu.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="./js/slick_02.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script> <!-- 글씨효과 <인간행복경영> -->
+
+</head>
+<body>
+
+    <header>
+
+    <ul id="pin">
+        <li><a href="">로그인</a></li>
+        <li>|</li>
+        <li><a href="">회원가입</a></li>
+        <li>|</li>
+        <li><a href="">동화 EMALL</a></li>
+    </ul>
+
+    <section id="top">
+        <a href="index.html"><img src="./img/main/logo_t.png" alt="logo"></a>
+    </section>
+
+    <!-- <header> -->
+        <div id="search">
+            <input type="text" name="search" size="25" placeholder="제품명 또는 성분을 입력해 주세요.">
+        </div>
+
+        <!-- 햄버거 메뉴 -->
+
+        <div id="menu-container">
+            <div id="menu-wrapper">
+                <div id="hamburger-menu">
+                    <span></span>  
+                    <span></span> 
+                    <span></span> 
+                </div> 
+            </div>
+    
+            <ul class="menu-list">
+    
+                <h3><img src="./img/main/logo1_t.png" alt="logo1"></h3>
+
+                <li id="nav0" >
+                    <ul id="pin2">
+                        <li><a href="#">로그인</a></li>
+                        <span>|</span>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </li>
+    
+                <li id="nav1" class="accordion-toggle">
+                    <a class="menu-link" href="#">회사소개</a></li>
+                    <ul class="menu-submenu accordion-content">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">C.I</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">사가</a></li>
+                            <li><a href="#">동화 브로슈어</a></li>
+                            <li><a href="#">연구소 / 공장</a></li>
+                            <li><a href="#">가족친화우수기업</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">환경경영</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">방침 및 목표</a></li>
+                                    <li><a href="#">인증</a></li>
+                                    <li><a href="#">환경경영 활동</a></li>
+                                </ul>
+                            <li><a href="#">오시는길</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">가족회사</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">동화지앤피</a></li>
+                                    <li><a href="#">동화개발</a></li>
+                                    <li><a href="#">흥진정공</a></li>
+                                </ul>
+                            <li><a href="#">기업이념</a></li>
+                            <li><a href="#">활명수 이야기</a></li>
+                            <li><a href="#">기네스북 등재</a></li>
+                            <li><a href="#">서울연통부 기념비</a></li>
+                            <li><a href="#">보당 송덕비</a></li>
+                            <li><a href="#">가송재단</a></li>
+                    </ul>
+        
+                <li id="nav2" class="accordion-toggle">
+                    <a class="menu-link" href="#">연구개발</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">R&D소개</a></li>
+                        <li><a href="#">연구성과</a></li>
+                        <li><a href="#">조직 및 업무</a></li>
+                        <li><a href="#">중점 연구분야</a></li>
+                        <li><a href="#">주요 연구과제</a></li>
+                        <li><a href="#">기술혁신 네트워크</a></li>
+                        <li><a href="#">글로벌 동화</a></li>
+                    </ul>
+        
+                <li id="nav3" class="accordion-toggle">
+                    <a class="menu-link" href="#">제품정보</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">제품 공지사항</a></li>
+                            <li><a href="#">제품 검색</a></li>
+                            <li><a href="#">신제품</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">전문의약품</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">소화기관용약</a></li>
+                                    <li><a href="#">항생제</a></li>
+                                    <li><a href="#">순환기/대사질환계용약</a></li>
+                                    <li><a href="#">해열, 진통, 소염제/호흡기용약</a></li>
+                                    <li><a href="#">근이완제/근골격계용약</a></li>
+                                    <li><a href="#">정신신경계용약</a></li>
+                                    <li><a href="#">피부/비뇨기계용약</a></li>
+                                </ul>
+                            <li class="accordion-toggle s-sub"><a href="#">일반의약품</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">소화기관용약</a></li>
+                                    <li><a href="#">감기약</a></li>
+                                    <li><a href="#">해열, 진통, 소염제/호흡기용약</a></li>
+                                    <li><a href="#">피부외용제</a></li>
+                                    <li><a href="#">잇몸질환/구내염치료제</a></li>
+                                    <li><a href="#">간장질환용제</a></li>
+                                    <li><a href="#">영양제</a></li>
+                                    <li><a href="#">자양강장제</a></li>
+                                    <li><a href="#">외용 소염진통제</a></li>
+                                    <li><a href="#">항히스타민제</a></li>
+                                    <li><a href="#">인후염치료제</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            <li><a href="#">의약외품 ▪ 기타</a></li>
+                            <li><a href="#">건강기능식품</a></li>
+                            <li><a href="#">식품 ▪ 음료</a></li>
+                            <li><a href="#">화장품</a></li>
+                            <li><a href="#">판매처 찾기</a></li>
+                    </ul>
+        
+                <li id="nav4" class="accordion-toggle">
+                    <a class="menu-link" href="#">채용정보</a></li>
+                    <ul class="menu-submenu accordion-content">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">인재상</a></li>
+                            <li><a href="#">인사제도</a></li>
+                            <li><a href="#">복리후생</a></li>
+                            <li><a href="#">채용안내</a></li>
+                            <li><a href="#">상시채용</a></li>
+                            <li><a href="#">지원결과 확인</a></li>
+                            <li><a href="#">자주하는 질문</a></li>
+                            <li><a href="#">채용 Q&A</a></li>
+                    </ul>
+        
+                <li id="nav5" class="accordion-toggle">
+                    <a class="menu-link" href="#">미디어센터</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">동화뉴스</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">광고갤러리</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">TV광고</a></li>
+                                    <li><a href="#">디지털콘텐츠</a></li>
+                                    <li><a href="#">라디오광고</a></li>
+                                    <li><a href="#">인쇄광고</a></li>
+                                    <li><a href="#">미디어리뷰</a></li>
+                                </ul>
+                            <li><a href="#">뉴스레터</a></li>
+                            <li><a href="#">동화캐릭터</a></li>
+                    </ul>
+    
+                <li id="nav6" class="accordion-toggle">
+                    <a class="menu-link" href="#">IR자료실</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">공시</a></li>
+                        <li><a href="#">사업보고서</a></li>
+                        <li><a href="#">전자공고</a></li>
+                    </ul>
+    
+                <li id="nav7" class="accordion-toggle">
+                    <a class="menu-link" href="#">사회공헌</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">국민 생활 건강 캠페인</a></li>
+                            <li><a href="#">맑은바람 캠페인</a></li>
+                            <li><a href="#">기업PR</a></li>
+                            <li><a href="#">또 하나의 마을 만들기</a></li>
+                            <li><a href="#">국민생활건강 프로젝트</a></li>
+                    </ul>
+                
+                <li id="nav8" class="accordion-toggle">
+                    <a class="menu-link" href="#">윤리경영</a> </li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">대표이사 메세지</a></li>
+                            <li><a href="#">윤리강령</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">자율준수(CP)</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">자율준수 프로그램</a></li>
+                                    <li><a href="#">CP 등급평가</a></li>
+                                    <li><a href="#">조직</a></li>
+                                    <li><a href="#">운영현황</a></li>
+                                </ul>
+                            <li><a href="#">부패방지방침</a></li>
+                            <li><a href="#">관련사이트</a></li>
+                            <li class="accordion-toggle s-sub"><a href="#">사이버 제보센터</a></li>
+                                <ul class="menu-s-sub">
+                                    <li><a href="#">이용안내</a></li>
+                                    <li><a href="#">제보하기</a></li>
+                                    <li><a href="#">처리결과 확인</a></li>
+                                </ul>
+                    </ul>
+                
+                <li id="nav9" class="accordion-toggle">
+                    <a class="menu-link" href="#">고객지원</a></li>
+                    <ul class="menu-submenu accordion-content">
+                        <li><a href="#">고객 아이디어</a></li>
+                            <li><a href="#">고객의 소리</a></li>
+                            <li><a href="#">사이버 제보센터</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                    </ul>
+
+                    <li id="nav10" >
+                        <ul id="pin3">
+                            <li><a href="#">동화 EMALL</a></li>
+                        </ul>
+                    </li>
+    
+            </ul>
+        </div>
+    <!-- <header> -->
+
+        <!-- PC 메뉴 -->
+
+        <section id="PC_menu">
+            <div class="p-menu">
+                <ul class="p-submenu">
+        
+                    <li><a href="#">회사소개</a>
+                        <ul class="p-sub">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">사가</a></li>
+                            <li><a href="#">동화 브로슈어</a></li>
+                            <li><a href="#">연구소/광장</a></li>
+                            <li><a href="#">가족친화우수기업</a></li>
+                            <li><a href="#">환경경영</a></li>
+                            <li><a href="#">오시는실</a></li>
+                            <li><a href="#">가족회사</a></li>
+                        </ul>
+                    </li>
+        
+                    <li><a href="#">연구개발</a>
+                        <ul class="p-sub1">
+                            <li><a href="#">R&D 소개</a></li>
+                            <li><a href="#">연구성과</a></li>
+                            <li><a href="#">조직 및 업무</a></li>
+                            <li><a href="#">중점 연구분야</a></li>
+                            <li><a href="#">주요 연구과제</a></li>
+                            <li><a href="#">기술혁신 네트워크</a></li>
+                            <li><a href="#">글로벌 동화</a></li>
+                        </ul>
+                    </li>
+        
+                    <li><a href="#">제품정보</a>
+                        <ul class="p-sub2">
+                            <li><a href="#">제품 공지사항</a></li>
+                            <li><a href="#">신제품</a></li>
+                            <li><a href="#">전문의약품</a></li>
+                            <li><a href="#">일반의약품</a></li>
+                            <li><a href="#">의약외품 ▪ 기타</a></li>
+                            <li><a href="#">건강기능식품</a></li>
+                            <li><a href="#">식품 ▪ 음료</a></li>
+                            <li><a href="#">화장품</a></li>
+                        </ul>
+                    </li>
+        
+                    <li><a href="#">채용정보</a>
+                        <ul class="p-sub3">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">인재상</a></li>
+                            <li><a href="#">인사제도</a></li>
+                            <li><a href="#">복리후생</a></li>
+                            <li><a href="#">채용안내</a></li>
+                            <li><a href="#">상시채용</a></li>
+                            <li><a href="#">지원결과 확인</a></li>
+                            <li><a href="#">자주하는 질문</a></li>
+                            <li><a href="#">채용Q&A</a></li>
+                        </ul>
+                    </li>
+        
+                    <li><a href="#">미디어센터</a>
+                        <ul class="p-sub4">
+                            <li><a href="#">동화뉴스</a></li>
+                            <li><a href="#">광고갤러리</a></li>
+                            <li><a href="#">뉴스레터</a></li>
+                            <li><a href="#">동화캐릭터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">IR자료실</a>
+                        <ul class="p-sub5">
+                            <li><a href="#">공시</a></li>
+                            <li><a href="#">사업보고서</a></li>
+                            <li><a href="#">전자공고</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">사회공헌</a>
+                        <ul class="p-sub6">
+                            <li><a href="#">국민생활건강 캠페인</a></li>
+                            <li><a href="#">맑은바람 캠페인</a></li>
+                            <li><a href="#">기업PR</a></li>
+                            <li><a href="#">또 하나의 마을 만들기</a></li>
+                            <li><a href="#">국민생활건강 프로젝트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">윤리경영</a>
+                        <ul class="p-sub7">
+                            <li><a href="#">대표이사 메시지</a></li>
+                            <li><a href="#">윤리강령</a></li>
+                            <li><a href="#">자율준수(CP)</a></li>
+                            <li><a href="#">부패방지방침</a></li>
+                            <li><a href="#">관련사이트</a></li>
+                            <li><a href="#">사이버 제보센터</a></li>
+                        </ul>
+                    </li>
+                </ul>    
+            </div>
+        </section>
+
+    </header>
+
+         <!-- PC 메뉴 end -->
+
+         <!-- PC main banner -->
+
+         <section id="pc_main_banner">
+            <div>
+                <ul id="slick01" >
+                    <li>
+                        <img src="./img/main/pc_ban1.jpg" alt="126주년">
+                    </li>
+                        
+                    <li>
+                        <img src="./img/main/pc_ban2.jpg" alt="까스활명수">
+                    </li>
+                    <li>
+                        <img src="./img/main/pc_ban1.jpg" alt="126주년">
+                    </li>
+                        
+                    <li>
+                        <img src="./img/main/pc_ban2.jpg" alt="까스활명수">
+                    </li>
+        
+                    <!-- <li>
+                        <img src="./img/main/pc_ban3.jpg" alt="후시딘">
+                    </li>
+
+                    <li>
+                        <img src="./img/main/pc_ban4.jpg" alt="성과관리">
+                    </li>
+
+                    <li>
+                        <img src="./img/main/pc_ban5.jpg" alt="제조 단지">
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+         <!-- PC main banner end -->
+        
+        <section class="top">
+            <video class="video" autoplay loop muted>
+                <source src="./img/main/t_whal_201809B.mp4">
+              </video>
+        </section>
+
+        
+        <section class="text-top">
+            
+            <h1 id="text1">인간행복 경영</h1>
+            <h4 id="text2"><p id="simpleUsage"></p></h4>
+        </section>
+
+
+        <!-- <section class="pc_main"> -->
+
+        <section id="sd">      
+            <h4 class="text3">신제품</h4>
+        
+            <div class="slid" >
+                <ul class="slider">
+                    
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=704&t_page=1&b=10&s=15">
+                        <li><span><img src="./img/NEW/a1_1.jpg" alt="동화쿠에티아핀정">
+                        <p>[전문의약품]</p> <br> 동화쿠에티아핀정 <br> 25mg, 100mg, 200mg, 300mg</span></li>
+                    </a>
+                            
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=703&t_page=1&b=20&s=21">
+                        <li><span><img src="./img/NEW/a2_1.jpg" alt="부채표 십신탕">
+                        <p>[일반의약품]</p> <br> 부채표 십신탕</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=701&t_page=1&b=45&s=42">
+                        <li><span><img src="./img/NEW/a3_1.jpg" alt="헬미나">
+                        <p>[건강기능식품]</p> <br> 헬미나 </span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=687&t_page=1&b=46&s=40">
+                        <li><span><img src="./img/NEW/a4_1.jpg" alt="도구리 파워 비타민">
+                        <p>[식품 ▪ 음료]</p> <br> 도구리 파워 비타민 </span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=681&t_page=1&b=20&s=23">
+                        <li><span><img src="./img/NEW/a5_1.jpg" alt="세비타비겔">
+                        <p>[일반의약품]</p> <br> 세비타비겔 </span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=680&t_page=1&b=46&s=40">
+                        <li><span><img src="./img/NEW/a6_1.jpg" alt="슈퍼히어로드링크">
+                        <p>[식품 ▪ 음료]</p> <br> 슈퍼히어로드링크 </span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=679&t_page=1&b=30&s=99">
+                        <li><span><img src="./img/NEW/a7_1.jpg" alt="인트린직 크림, 로션 MD">
+                        <p>[의약외품 ▪ 기타]</p> <br> 인트린직 크림, 로션 MD</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=678&t_page=1&b=10&s=10">
+                        <li><span><img src="./img/NEW/a8_1.jpg" alt="라베듀엣정">
+                        <p>[전문의약품]</p> <br> 라베듀엣정 <br> 10/500mg, 20/500mg</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=676&t_page=1&b=30&s=99">
+                        <li><span><img src="./img/NEW/a9_1.jpg" alt="잇치 가글액">
+                        <p>[의약외품 ▪ 기타]</p> <br> 잇치 가글액</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=665&t_page=1&b=20&s=20">
+                        <li><span><img src="./img/NEW/a10_1.jpg" alt="소가프텐정">
+                        <p>[일반의약품]</p> <br> 소가프텐정</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=664&t_page=1&b=30&s=99">
+                        <li><span><img src="./img/NEW/a11_1.jpg" alt="인트린직 아이비 젤 MD">
+                        <p>[의약외품 ▪ 기타]</p> <br> 인트린직 아이비 젤 MD</span></li>
+                    </a>
+                
+                    <a href="http://www.dwpharm-dc.com/fusidyne01">
+                        <li><span><img src="./img/NEW/a12_1.jpg" alt="후시다인 후시드 크림 플러스">
+                        <p>[화장품]</p> <br> 후시다인 후시드 크림 플러스</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=626&t_page=2&b=20&s=22">
+                        <li><span><img src="./img/NEW/a13_1.jpg" alt="코마키텐 나잘스프레이">
+                        <p>[일반의약품]</p> <br> 코마키텐 나잘스프레이</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=622&t_page=2&b=20&s=25">
+                        <li><span><img src="./img/NEW/a14_1.jpg" alt="헬민리버스액">
+                        <p>[일반의약품]</p> <br> 헬민리버스액</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=621&t_page=2&b=20&s=20">
+                        <li><span><img src="./img/NEW/a15_1.jpg" alt="활명수-유액">
+                        <p>[일반의약품]</p> <br> 활명수-유액</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=615&t_page=2&b=30&s=99">
+                        <li><span><img src="./img/NEW/a16_1.jpg" alt="알프스비포액">
+                        <p>[의약외품 ▪ 기타]</p> <br> 알프스비포액</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=610&t_page=2&b=20&s=26">
+                        <li><span><img src="./img/NEW/a17_1.jpg" alt="비라밸정">
+                        <p>[일반의약품]</p> <br> 비라밸정</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=597&t_page=2&b=45&s=99">
+                        <li><span><img src="./img/NEW/a18_1.jpg" alt="덴티프로">
+                        <p>[건강기능식품]</p> <br> 덴티프로</span></li>
+                    </a>
+                
+                    <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=567&t_page=2&b=30&s=99">
+                        <li><span><img src="./img/NEW/a19_1.jpg" alt="미인활액">
+                        <p>[의약외품 ▪ 기타]</p> <br> 미인활액</span></li>
+                    </a>
+
+                    <a href="http://www.http://dong-wha.co.kr/product/content.asp?t_idx=636&b=30&s=99">
+                        <li><span><img src="./img/NEW/a20_1.jpg" alt="잇속 치태케어">
+                        <p>[의약외품 ▪ 기타]</p> <br> 잇속 치태케어</span></li>
+                    </a>
+                
+                </ul>
+            </div>
+        </section>
+
+        <section id="product">
+        <h4 class="text4">제품정보</h4>
+        <div class="swiper-container"  id="slider">
+            <div class="swiper-wrapper">
+            
+              <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=10"><img src="./img/icon/pharmacist.png" class="img1" alt="">
+                  <div class="hov01">전문의약품</div>    
+                </a></div>
+    
+                <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=20"><img src="./img/icon/prescription_based_medicine.png" class="img1" alt="">
+                  <div class="hov01">일반의약품</div>    
+                </a></div>
+            
+                <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=30"><img src="./img/icon/medicine_(2).png" class="img1" alt="">
+                  <div class="hov01">의약외품.기타</div>    
+                </a></div>
+            
+                <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=45"><img src="./img/icon/health_functional_food.png" class="img1" alt="">
+                  <div class="hov01">건강기능식품</div>    
+                </a></div>
+            
+                <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=46"><img src="./img/icon/food_and_drink.png" class="img1" alt="">
+                  <div class="hov01">식품.음료</div>    
+                </a></div>
+            
+                <div class="swiper-slide" id="m1"><a href="http://m.dong-wha.co.kr/product/list_search.asp?t_b=50"><img src="./img/icon/cosmetics.png" class="img1" alt="">
+                  <div class="hov01">화장품</div>    
+                </a></div>
+            
+            </div>
+        </div> 
+        </section>
+
+
+        <section class="bo">
+            <section class="dubox bo1">
+                <h4 class="text3 news">동화 뉴스</h4>
+                    <div class="box">
+                            <ul class="box1">
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1374&t_page=1&t_year=&s_text="> 
+                                    동화약품, 18대 유준하 사장 취임</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1373&t_page=1&t_year=&s_text="> 
+                                    동화약품, 활명수 125주년 기념판 판매수익금 대한적십자사 기부</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1372&t_page=1&t_year=&s_text="> 
+                                    동화약품, 1회 사용 무좀치료 브러쉬 타입 ‘바르지오 원스’ 신규 TV-CF</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1371&t_page=1&t_year=&s_text="> 
+                                    부채표 가송재단–대한치과의사협회, 제 12회 윤광열 치과의료봉사상 ‘베트남평화의료연대’ 선정</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1369&t_page=2&t_year=&s_text="> 
+                                    동화약품, ‘한국 테니스 간판’ 권순우 선수 스폰서십 계약 체결</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/dongwha/news_view.asp?t_idx=1368&t_page=2&t_year=&s_text="> 
+                                    제 8회 윤도준 의학상, 오정신건강의학과의원 이상훈 원장 선정</a></li>
+                            </ul>
+                            <a href="http://m.dong-wha.co.kr/dongwha/news_list.asp"><div id="plus">더보기</div></a>
+
+                    </div>
+            </section>
+
+            <section class="dubox bo2">
+                <h4 class="text3">소비자 FAQ</h4>
+                    <div class="box">
+                            <ul class="box1">
+                                <li><a href="http://m.dong-wha.co.kr/customer/faq_view.asp?t_idx=23&t_page=1&s_text=">
+                                    약국마다 가격차이가 있는 이유는 무엇인가요?</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/customer/faq_view.asp?t_idx=22&t_page=1&s_text=">
+                                    사용기한이 지난 제품을 교환할 수 있나요?</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/customer/faq_view.asp?t_idx=21&t_page=1&s_text=">
+                                    사용기한이 지난 의약품 어떻게 해야 하나요?</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/customer/faq_view.asp?t_idx=20&t_page=1&s_text=">
+                                    제품에 대해 궁금한 사항이 있으신가요?</a></li>
+                                <li><a href="http://m.dong-wha.co.kr/customer/faq_view.asp?t_idx=13&t_page=1&s_text=">
+                                    동화약품 제품은 어디서 구입할 수 있나요?</a></li>
+                            </ul>
+                            <a href="http://www.dong-wha.co.kr/company/brochure.asp"><img id="sur" src="img/main/b1212_w.png" alt=""><div id="busur">동화 브로슈어 <br> 보러가기</div></a>
+                    </div>
+            </section>
+        </section>
+
+
+        <section class="affiliate">
+        <h4 class="text4">계열사</h4>
+        <div id="company">
+            <li><a href="http://www.whalmyungsu.co.kr/new/main.html"><img src="./img/main/brand_whalmyungsu1.png" alt="가스활명수"></a></li>
+            <li><a href="http://www.myeach.co.kr/m/welcome.asp"><img src="./img/main/brand_each1.png" alt="잇치"></a></li>
+            <li><a href="https://www.dong-wha.co.kr/product/content.asp?t_idx=85"><img src="./img/main/brand_fucidin1.png" alt="후시딘"></a></li>
+            <li><a href="http://www.dwpharm-dc.com/"><img src="./img/main/brand_dermacosmetic1.png" alt="더마코스메틱"></a></li>
+        </div>
+       </section> 
+    </section>
+
+        <div id="footer">
+            <h2 id="foot1"><img src="./img/main/logo1_t.png" alt="logo"></h2>
+            <p id="foot2">고객센터 <br> 080-023-1897<br>  평일 : 09:00 - 18:00  주말,공휴일 휴무 </p>
+            <p id="foot3"> 동화약품(주) <br>
+                대표이사 : 유준하<br>
+                주소 : (04522) 서울특별시 중구 남대문로9길 24 패스트파이브타워 6-8층<br>
+                전화번호 : 080-023-1897<br>
+                통신판매번호 : 2004-서울중구-02098<br>
+                건강기능식품번호 : 제2009-0433240호<br>
+                사업자 등록번호 : 110-81-00102<br>
+                사업자정보확인 COPYRIGHT(C) DOCN WHA PHARM. CO., LTD. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+
+        <section id="foot">
+            <img id="foot4" src="./img/main/logo_bestfamily_M.png" alt="가족친화우수기업">
+            <img id="foot5" src="./img/main/logo_CP_M.png" alt="CP'AA'등급">
+            <img id="foot6" src="./img/main/logo_ISO_M.png" alt="KAB">
+        </section>    
+        
+       <section id="foot_1">
+            <img id="foot4_1" src="./img/main/logo_bestfamily_1.png" alt="가족친화우수기업">
+            <img id="foot5_1" src="./img/main/logo_CP_1.png" alt="CP'AA'등급">
+            <img id="foot6_1" src="./img/main/logo_ISO_1.png" alt="KAB">
+       </section>
+
+
+
+
+    
+</body>
+</html>
